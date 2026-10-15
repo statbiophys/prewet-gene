@@ -1,0 +1,40 @@
+{
+ "c_sat_phi": 0.00032277920000173266,
+ "K_D_over_c_sat": 0.325,
+ "coef_EF": 50,
+ "coef_CDH": 100,
+ "A": {
+  "low": 0.12741935483870967,
+  "high": 0.8951612903225806
+ },
+ "B": {
+  "low": 0.12741935483870967,
+  "high": 0.95
+ },
+ "AB_colour_range": [
+  0.1,
+  0.95
+ ],
+ "EF": {
+  "c_over_csat_min": 0.1,
+  "c_over_csat_max": 0.6209677419354839,
+  "n_shown": 20,
+  "n_total": 30
+ },
+ "s_star": {
+  "low_c": 83.74455261230469,
+  "high_c": 91.31248474121094
+ },
+ "IJ_c_over_csat": {
+  "low_c": 0.15483870967741936,
+  "high_c": 0.42903225806451617
+ },
+ "sources": {
+  "A": "fig6_sweep/fisher_rate_from_fpt_solver.json",
+  "B": "fig6_potential_s110/bvp_potential_interp.json",
+  "EF": "fig6_sweep/rouse",
+  "CDH": "fig6_s300/run*/s300",
+  "IJ": "fig6_s_scan/run*/{low_c,high_c}",
+  "single_sphere": "fig6_sweep/demo_bvp_profiles.json"
+ }
+}
